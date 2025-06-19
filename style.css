@@ -1,0 +1,78 @@
+.card{
+  background-color:hsl(0, 0%, 100%) ;
+  max-width: 375px;
+  
+  
+  overflow: hidden;
+  border-top: 0.5px solid rgba(0, 0, 0);
+  border-left: 0.5px solid rgba(0, 0, 0);
+  box-shadow: 8px 8px  rgba(0, 0, 0);
+  border-radius: 10px;
+}
+
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  
+  
+}
+.two{
+  margin: 20px;
+}
+
+.image{
+  border-radius: 10px;
+  
+  
+}
+.nested{
+  background-color: hsl(47, 88%, 63%);
+  margin:10px;
+  margin-right: 250px;
+  margin-left: 0px;
+  text-align: center;
+  font-weight:900;
+  font-family: 'Figtree', sans-serif;
+
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+
+}
+.card h4{
+  font-size: 16px;
+  font-weight: 100;
+
+}
+.card h1{
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: x-large;
+  font-weight: bolder;
+
+}
+.card h2{
+  color:hsl(0, 0%, 42%);
+  font-size: 16px;
+  
+}
+.profile-division{
+  display: flex;
+  gap:10px;
+   align-items: center; 
+
+}
+.profile{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;  
+  object-fit: cover;  
+}
+.name{
+  font-weight: 700;
+  
+}
